@@ -1,8 +1,8 @@
 let fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn }) => {
-let sound = fs.readFileSync('./mp3/tes.opus') 
-conn.sendFile(m.chat, sound, '', '', m, true)
+let tesbot = fs.readFileSync('./mp3/tes.opus') 
+conn.sendFile(m.chat, tesbot, '', '', m, true)
 }
 
 handler.customPrefix = /^(tes)$/i
