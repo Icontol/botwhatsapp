@@ -19,7 +19,7 @@ export function before(m) {
             continue
         let reason = user.afkReason || ''
         conn.sendButtonDoc(m.chat,`
-  Jangan tag dia!
+  Jangan tag dia tod!
   Dia sedang AFK ${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}
   Selama ${(new Date - afkTime).toTimeString()}
   `,wm,'Maaf Bang','Ya',m,fakeig)
