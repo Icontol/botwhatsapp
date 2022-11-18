@@ -9,13 +9,13 @@ function pickRandom(list) {
 let namae = conn.getName(m.sender)
 const sections = [
 {
-title: "Select Your Age Here !",
+title: "Silahkan pilih umur kamu!",
 rows: [
 {title: "Random Years", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 ]
 },
 {
-title: "O L D",
+title: "Dewasa",
 rows: [
 {title: "30 Years", rowId: '.daftar ' + namae + '.30 '},
 {title: "29 Years", rowId: '.daftar ' + namae + '.29 '},
@@ -30,7 +30,7 @@ rows: [
 ]
 },
 {
-title: "Y O U N G",
+title: "Muda",
 rows: [
 {title: "20 Years", rowId: '.daftar ' + namae + '.20 '},
 {title: "19 Years", rowId: '.daftar ' + namae + '.19 '},
@@ -49,10 +49,10 @@ rows: [
 ]
 
 const listMessage = {
-  text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔> Want a costume name? type *${usedPrefix + command} yourname.age*`,
+  text: `│›Silahkan pilih umur anda di tombol...`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔> Want a costume name? type *${usedPrefix + command} nama.umur*`,
   title: "▢- - - - - ʀᴇɢɪsᴛᴇʀ - - - - -",
-  buttonText: "Click Here !",
+  buttonText: "TEKAN INI!",
   sections
 }
 
@@ -73,7 +73,7 @@ const listMessage = {
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
   let cap = `
 ┏─• *ᴜsᴇʀs*
-│▸ *sᴛᴀᴛᴜs:* ☑️ sᴜᴄᴄᴇssғᴜʟ
+│▸ *sᴛᴀᴛᴜs:* ☑️daftar berhasil
 │▸ *ɴᴀᴍᴇ:* ${name}
 │▸ *ᴀɢᴇ:* ${age} ʏᴇᴀʀs
 │▸ *sɴ:* ${sn}
