@@ -73,11 +73,11 @@ global.nameown1= 'VANN'
 global.nameown2 = 'VANN'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
-global.lynk = 'https://lynk.id/hyuuraofc'
+global.lynk = 'https://chat.whatsapp.com/EPmjuw9X1wZDGX1p4NCV1e'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = 'https://instagram.com/_b4c00t4an_s3l3b'
+global.sig = 'https://instagram.com/ivantheo159'
 global.sgh = 'https://github.com' //github
 global.sgc = 'https://chat.whatsapp.com/EPmjuw9X1wZDGX1p4NCV1e' //group whatsapp
 global.sdc = '-' //discord
@@ -128,7 +128,7 @@ global.eror = 'Mohon Maaf Server Kami Sedang Error!'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND GEME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.benar = '𝙶𝚘𝚘𝚍 𝙹𝚘𝚋𝚋! ◕◡◕'
-global.salah = '𝙽𝚘𝚝 𝙱𝚊𝚍! ◕◠◕'
+global.salah = '𝚂𝚊𝚕𝚊𝚑 𝚝𝚘𝚍! ◕◠◕'
 global.dikit = "𝙳𝚒𝚔𝚒𝚝 𝙻𝚊𝚐𝚒,𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝!!"
 
 
