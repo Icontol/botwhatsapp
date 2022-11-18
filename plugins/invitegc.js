@@ -7,10 +7,10 @@ var messaa = await prepareWAMessageMedia({ image: fs.readFileSync('./media/ok.jp
 var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "groupInviteMessage": {
 "groupJid": "120363044585298853@g.us",
-"inviteCode": "k4hEiLw6EJqtj",
+"inviteCode": "EPmjuw9X1wZDGX1p4NCV1e",
 "inviteExpiration": `99999999999`,
-"groupName": "Yᴜsʜɪɴᴏ -Mᴅ",
-"caption": `Iya Halo Bang, Kenpa?`,
+"groupName": "sans -Mᴅ",
+"caption": `Iya Halo Bang, Kenapa?`,
 "jpegThumbnail": messaa.imageMessage,
 }
 }), { userJid: m.chat, quoted: ftroli })
