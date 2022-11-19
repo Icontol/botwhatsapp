@@ -21,7 +21,7 @@ const catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "retailerId": wm,
 "url": "wa.me/6285876830674"
 },
-"businessOwnerJid": "6281361281833@s.whatsapp.net",
+"businessOwnerJid": "6285876830674@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: ftroli })    
 
