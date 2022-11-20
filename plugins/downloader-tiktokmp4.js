@@ -12,8 +12,10 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 ┇⟐⟞⟚⟝⟮ *Author* ⟯⟞⟚⟝⟐
 ▥ ━┉┄┄┈┈ ▢
 ${res.author}
+
+Kalo mau download audio = teruskan pesan ini ke bot lalu replay atau kasih caption .tomp3
 ◈ ━┉┈┄┈┈ ►`
-    conn.sendButtonVid(m.chat, res.video, result, '_© Created by Ivan_', m)
+    conn.sendButtonVid(m.chat, res.video, result, '_© Created by Ivan_', `JANGAN DITEKAN NANTI EROR`, `.gettt ${args[0]}`, m)
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
