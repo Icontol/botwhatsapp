@@ -5,7 +5,7 @@ let tesbot = fs.readFileSync('./mp3/tes.opus')
 conn.sendFile(m.chat, tesbot, '', '', m, true)
 }
 
-handler.customPrefix = /^(tes)$/i
+handler.customPrefix = /(tes?)/i
 handler.command = new RegExp
 
 handler.limit = true
