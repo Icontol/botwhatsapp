@@ -116,6 +116,27 @@ function clearTmp() {
   })
 }
 
+async function connectionUpdate(update) {
+  const { connection, lastDisconnect, isNewLogin } = update
+  if (isNewLogin) conn.isInit = true
+  const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
+  if (code && code !== DisconnectReason.loggedOut && conn?.ws.readyState !== CONNECTING) {
+    console.log(await global.reloadHandler(true).catch(console.error))
+    global.timestamp.connect = new Date
+  }
+  if (global.db.data == null) loadDatabase()
+   if (update.receivedPendingNotifications) conn.sendButtonDoc(`6285876830674@s.whatsapp.net`, 
+`┏═══════════════════
+┃╴◈ Bᴏᴛ Tᴇʟᴀʜ Tᴇʀsᴀᴍʙᴜɴɢ
+┣═══════════════════
+┃╴▶ Nᴏᴍᴏʀ : ${global.nomorbot}
+┃╴▶ Nᴀᴍᴇ Bᴏᴛ : ${global.namebot}
+┖┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬
+`, wm, 'Oᴡɴᴇʀ', '.owner', null
+)
+}
+
+
 process.on('uncaughtException', console.error)
 // let strQuot = /(["'])(?:(?=(\\?))\2.)*?\1/
 
