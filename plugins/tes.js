@@ -8,4 +8,6 @@ conn.sendFile(m.chat, tesbot, '', '', m, true)
 handler.customPrefix = /^(tes)$/i
 handler.command = new RegExp
 
+handler.mods = false
+
 export default handler
