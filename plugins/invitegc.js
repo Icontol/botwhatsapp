@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 var messaa = await prepareWAMessageMedia({ image: fs.readFileSync('./media/ok.jpg') }, { upload: conn.waUploadToServer })
 var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "groupInviteMessage": {
-"groupJid": "120363044585298853@g.us",
+"groupJid": "120363025908944080@g.us",
 "inviteCode": "EPmjuw9X1wZDGX1p4NCV1e",
 "inviteExpiration": `99999999999`,
 "groupName": "sans -Mᴅ",
