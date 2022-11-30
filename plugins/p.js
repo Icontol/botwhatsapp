@@ -8,4 +8,6 @@ conn.sendFile(m.chat, cok, '', '', m, true)
 handler.customPrefix = /^(p)$/i
 handler.command = new RegExp
 
+handler.mods = false
+
 export default handler
