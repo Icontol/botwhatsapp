@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, participants, isAdmin, isOwner }) => {
 
 handler.help = ['o-tagall']
 handler.tags = ['owner']
-handler.command = ['o-tagall']
+handler.command = ['otagall']
 handler.owner = true
 handler.group = true
 handler.register = true
